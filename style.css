@@ -1,5 +1,98 @@
 /* styles for jobseekers.html
 	Created by Sherry, Vicent, and Dennis
 */
+body {
+	font-size: 100%
+}
+
+img{
+		max-width: 100%;
+	}
+
+header img:hover {
+	opacity: 0.7;
+}
+
+ul#upperNav li:hover {
+	background-color: gray;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+nav#navigator {
+	background-color: #2F2F2F;
+	color: white;
+}
+
+nav ul#upperNav {
+	margin-top: 0;
+}
+
+nav ul#upperNav li {
+	border: 2px solid white;
+	border-radius: 0.3em;
+	margin-left: 10px;
+	font-size: 0.7em;
+	padding: 10px;
+}
 
 
+
+nav ul li {
+	list-style: none;
+	padding-left: 15px;
+}
+
+
+/* for iPhone 4  */
+@media only screen 
+and (-webkit-min-device-pixel-ratio : 1.5), only screen 
+and (min-device-pixel-ratio : 1.5) {
+
+/* Styles */
+}
+
+
+/* for screen less than 480px  */
+@media screen 
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
+}
+
+
+/* screen 481px-1024px*/
+@media only screen
+and (min-width : 481px)
+and (max-width : 768px) {
+/* Styles */
+}
+
+
+
+@media screen and (min-width: 769px) {
+
+	header img {
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	nav ul li {
+		display: inline;
+	}
+
+	nav ul#lowerNav {
+	padding-bottom: 20px;
+	text-align: center;
+	}
+
+	nav ul#upperNav {
+	padding-top: 20px;
+	margin-left: 61%;
+	}
+
+}
