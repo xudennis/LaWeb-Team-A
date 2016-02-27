@@ -4,6 +4,7 @@
 
 
 body {
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 100%
 }
 
@@ -13,8 +14,9 @@ img {
 	}
 
 header, header nav#navigator {
-	margin-bottom: 0;
+	//margin-bottom: 0;
 }
+
 header img:hover {
 	opacity: 0.7;
 }
@@ -37,6 +39,8 @@ nav ul#upperNav {
 	margin-top: 0;
 }
 
+
+
 nav ul#upperNav li {
 	border: 2px solid white;
 	border-radius: 0.3em;
@@ -51,41 +55,38 @@ nav ul li {
 }
 
 section#content {
-	margin: 0;
+	//margin: 0;
 }
 
 div#slideshow {
 	background-color: #EAEDEE;
-	margin: 0;
+	//margin-top: 0;
+}
+
+div#slideshow img {
+	border: none;
+	display: block;
 }
 
 
-div#onestop {
-	background-image: url("images/slash.png"), url("images/slash.png");
-	//background-repeat: repeat-y;
-	//background-position: 50% 50%;;
-	//background-color: gray;
-	
+div#onestop img {
+	padding: 30px;
+	display: block;
+	margin-left: 40%;
+	position: absolute;
 }
 
 div#onestop h1 {
-	text-align: center;
+	margin-left: 35%;
+	margin-top: 30px;
+	position: absolute;
+	padding: 30px;
 }
 
-
-/* for iPhone 4  */
-@media only screen 
-and (-webkit-min-device-pixel-ratio : 1.5), only screen 
-and (min-device-pixel-ratio : 1.5) {
-
-/* Styles */
-}
 
 
 /* for screen less than 480px  */
-@media screen 
-and (min-width : 320px)
-and (max-width : 480px) {
+@media screen and (max-width : 480px) {
 /* Styles */
 }
 
@@ -123,9 +124,13 @@ and (max-width : 768px) {
 
 	
 
-	ul.slides {
+	div#slideshow img {
 		width: 60%;
 		margin: 0 auto;
+	}
+
+	div#onestop {
+		padding: 20px;
 	}
 
 }
