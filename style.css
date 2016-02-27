@@ -1,17 +1,19 @@
 /* styles for jobseekers.html
 	Created by Sherry, Vicent, and Dennis
 */
+
+
 body {
 	font-size: 100%
 }
 
-img{
+img {
 		max-width: 100%;
 		// margin-top: 0;
 	}
 
-header {
-	// margin-bottom: 0;
+header, header nav#navigator {
+	margin-bottom: 0;
 }
 header img:hover {
 	opacity: 0.7;
@@ -43,11 +45,31 @@ nav ul#upperNav li {
 	padding: 10px;
 }
 
-
-
 nav ul li {
 	list-style: none;
 	padding-left: 15px;
+}
+
+section#content {
+	margin: 0;
+}
+
+div#slideshow {
+	background-color: #EAEDEE;
+	margin: 0;
+}
+
+
+div#onestop {
+	background-image: url("images/slash.png"), url("images/slash.png");
+	//background-repeat: repeat-y;
+	//background-position: 50% 50%;;
+	//background-color: gray;
+	
+}
+
+div#onestop h1 {
+	text-align: center;
 }
 
 
@@ -97,6 +119,13 @@ and (max-width : 768px) {
 	nav ul#upperNav {
 	padding-top: 20px;
 	margin-left: 61%;
+	}
+
+	
+
+	ul.slides {
+		width: 60%;
+		margin: 0 auto;
 	}
 
 }
