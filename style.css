@@ -53,20 +53,21 @@ nav ul li {
 	padding-left: 15px;
 }
 
-div#slideshow {
+section#slideshow {
 	background-color: #EAEDEE;
 }
 
 img#arrows {
-	
-    margin: 0 auto;
-    width: 50px;
-    height: 35px;
+	//display: block;
 }
 
 div#slides img {
 	display: block;
-	height: 350px;
+	height: 480px;
+}
+
+section#middle {
+	// background-color: #FCFCFC;
 }
 
 div#onestop img {
@@ -77,12 +78,68 @@ div#onestop img {
 }
 
 div#onestop h1 {
-	margin-left: 30%;
+	margin-left: 31%;
 	margin-top: 30px;
-	position: absolute;
+	//position: absolute;
 	padding: 30px;
 	letter-spacing: 0.2em;
 }
+
+div#svg object {
+	opacity: 0.5;
+	//background-color: #6F7678;
+	color: white;
+	padding: 0;
+}
+
+div#svg p {
+	font-size: 0.7em;
+	text-align: center;
+}
+
+div#svg figcaption {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+
+
+object#first {
+	position: absolute;
+}
+
+object#second {
+	margin-left: 32px;
+}
+
+div#jobbuzz {
+	padding-bottom: 120px;
+}
+
+
+section#bottom {
+	clear: both;
+	background-color: #EAEDEE;
+}
+
+
+div#match img {
+	//padding: 10px;
+	display: block;
+	margin-top: 30px;
+	margin-left: 43%;
+	position: absolute;
+}
+
+div#match h1 {
+	margin-left: 28%;
+	//position: absolute;
+	padding: 60px;
+	letter-spacing: 0.2em;
+}
+
+
+
 
 
 /* for screen less than 480px  */
@@ -92,7 +149,7 @@ div#onestop h1 {
 
 
 /* screen 481px-1024px*/
-@media only screen
+@media screen
 and (min-width : 481px)
 and (max-width : 768px) {
 /* Styles */
@@ -132,5 +189,55 @@ and (max-width : 768px) {
 	div#onestop {
 		padding: 20px;
 	}
+
+	div#svg {
+	width: 60%;
+	margin: 20px auto;
+	}
+
+	div#path {
+		width: 18%;
+		float: left;
+		margin-left: 35px;
+		margin-right: 35px;
+		
+	}
+
+	div#mentor {
+		width: 18%;
+		float: left;
+		margin-right: 35px;
+	}
+
+	
+	div#ezjobs {
+		width: 18%;
+		float: left;
+		margin-right: 35px;
+	}
+	
+	div#jobbuzz {
+		width: 18%;
+		float: left;
+	}
+
+	div#photos {
+		width: 70%;
+	    margin: 0 auto;
+	}
+
+	div#photos img {
+		width: 22%;
+		height: 380px;
+		//display: block;
+		//float: left;
+	}
+
+	img.imgStyle {
+		border: 8px solid black;
+		margin-left: 10px;
+
+	}
+
 
 }
