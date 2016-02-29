@@ -142,18 +142,17 @@ footer {
 	font-size: 0.8em;
 }
 
-div#logo {
-	margin: 20px;
+div#logo img {
+	margin-bottom: 10px;
+	display: block;
+	//height: 100px;
 }
 
-div#contact {
-	margin-top: 50px;
-	font-weight: bold;
+div#logo p {
+	font-size: 0.8em;
+	text-align: center;
 }
 
-div#contact ul li {
-	margin-right: 20px;
-}
 
 div#subForm {
 	margin: 10px;
@@ -161,12 +160,23 @@ div#subForm {
 	background-color: #EAEDEE;
 }
 
-div#subForm p, form input {
-	padding: 15px;
-	border: 0px;
-	//text-align: center;
-
+div#para {
+	background-color: #D9D9DA;
+	padding: 1px;
 }
+
+div#para p {
+	margin: 15px;
+	text-align: center;
+}
+
+form input {
+	margin: 15px;
+	padding: 10px;
+	border: 0px;
+	width: 70%;
+}
+
 
 input#submit {
 	padding: 10px;
@@ -174,16 +184,8 @@ input#submit {
 	color: white;
 }
 
-/* for screen less than 480px  */
-@media screen and (max-width : 480px) {
-/* Styles */
-}
 
-
-/* screen 481px-1024px*/
-@media screen
-and (min-width : 481px)
-and (max-width : 768px) {
+@media screen and (max-width : 768px) {
 /* Styles */
 }
 
@@ -260,7 +262,7 @@ and (max-width : 768px) {
 
 	div#photos img {
 		width: 22%;
-		height: 380px;
+		height: 350px;
 		//display: block;
 		//float: left;
 		text-align: center;
@@ -273,11 +275,33 @@ and (max-width : 768px) {
 	img.imgStyle {
 		border: 8px solid black;
 		margin: 20px 10px 40px;
+		//position: absolute;
 	}
 
 	footer {
-		width: 60%;
+		width: 70%;
 		margin: 0 auto;
+	}
+
+	div#logo  {
+		width: 15%;
+		//margin-right: 0 20px;
+		
+	}
+
+	div#contact {
+		width: 26%;
+		margin-top: 65px;
+		font-weight: bold;
+	}
+
+	div#social {
+		width: 35%;
+		margin-top: 55px;
+	}
+
+	div#subForm {
+		width: 13%;
 	}
 
 	footer ul li {
@@ -292,4 +316,26 @@ and (max-width : 768px) {
 		display: block;
 	}
 
+	
+
+	div#social ul {
+		margin-right: 15px;
+	}
+
+	
+
+	div#social ul li {
+		margin-right: 13px;
+	}
+
+	div#contact ul {
+		margin-right: 12px;
+	}
+
+	div#contact ul li {
+		margin-left: 20px;
+	}
+
+
+	
 }
