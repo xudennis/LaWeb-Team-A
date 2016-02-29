@@ -191,8 +191,8 @@ and (max-width : 768px) {
 	}
 
 	div#svg {
-	width: 60%;
-	margin: 20px auto;
+		width: 60%;
+		margin: 20px auto;
 	}
 
 	div#path {
@@ -231,6 +231,7 @@ and (max-width : 768px) {
 		height: 380px;
 		//display: block;
 		//float: left;
+		text-align: center;
 	}
 
 	img.imgStyle {
