@@ -138,9 +138,41 @@ div#match h1 {
 	letter-spacing: 0.2em;
 }
 
+footer {
+	font-size: 0.8em;
+}
 
+div#logo {
+	margin: 20px;
+}
 
+div#contact {
+	margin-top: 50px;
+	font-weight: bold;
+}
 
+div#contact ul li {
+	margin-right: 20px;
+}
+
+div#subForm {
+	margin: 10px;
+	font-size: 0.7em;
+	background-color: #EAEDEE;
+}
+
+div#subForm p, form input {
+	padding: 15px;
+	border: 0px;
+	//text-align: center;
+
+}
+
+input#submit {
+	padding: 10px;
+	background-color: #5A5A5A;
+	color: white;
+}
 
 /* for screen less than 480px  */
 @media screen and (max-width : 480px) {
@@ -234,11 +266,30 @@ and (max-width : 768px) {
 		text-align: center;
 	}
 
-	img.imgStyle {
-		border: 8px solid black;
-		margin-left: 10px;
-
+	div#photos a:first-child {
+		margin-left: 8%;
 	}
 
+	img.imgStyle {
+		border: 8px solid black;
+		margin: 20px 10px 40px;
+	}
+
+	footer {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	footer ul li {
+		display: inline;
+	}
+
+	.left {
+		float: left;
+	}
+
+	form input {
+		display: block;
+	}
 
 }
