@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial scale = 1" />
 	<link href="normalize.css" rel="stylesheet" type="text/css" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
-	<link rel="javasscript" type="javascript" href="job.js">>
+	
 </head>
 <body>
 
@@ -34,19 +34,17 @@
 
 	<section id="slideshow">
 
-		
-				<div id="slides">
-		        <img class="mySlides" src="images/rollPic1.jpg" alt="Slide photo 1" />
-		       <img class="mySlides" src="images/rollPic2.jpg" alt="Slide photo 2" />
-		       <img class="mySlides" src="images/rollPic3.jpg" alt="Slide photo 3" />
-		       <img class="mySlides" src="images/rollPic4.jpg" alt="Slide photo 4" />
-      		   <a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
-               <a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
-		        
-		   		</div>
-		   		<!--<img id="arrows" src="images/arrows_white_new3.png"  alt="arrows"/>-->
-		   		
-		
+			<a class="w3-btn-floating" style="position:absolute;top:45%;left:13%" onclick="plusDivs(-1)"><img class="arrows" src="images/arrows_white_left.png" /></a>
+               <a class="w3-btn-floating" style="position:absolute;top:45%;right:13%" onclick="plusDivs(1)"><img class="arrows" 
+               	src="images/arrows_white_right.png" /></a>
+		<div id="slides">
+		    <img class="mySlides" src="images/rollPic1.jpg" alt="Slide photo 1" />
+		    <img class="mySlides" src="images/rollPic2.jpg" alt="Slide photo 2" />
+		    <img class="mySlides" src="images/rollPic3.jpg" alt="Slide photo 3" />
+		    <img class="mySlides" src="images/rollPic4.jpg" alt="Slide photo 4" />
+      	       
+		</div>
+		   		   		
 	</section>	
 
 	<section id="middle">
@@ -148,28 +146,7 @@
 
 	</footer>
 
-	<script>
-var slideIndex = 1;
-showDivs(slideIndex);
+	 <script src="job.js"></script> 
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length} ;
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
-
-</body>
-
-	
 </body>
 </html>
