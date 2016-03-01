@@ -57,17 +57,9 @@ section#slideshow {
 	background-color: #EAEDEE;
 }
 
-img#arrows {
-	//display: block;
-}
-
 div#slides img {
 	display: block;
 	height: 480px;
-}
-
-section#middle {
-	// background-color: #FCFCFC;
 }
 
 div#onestop img {
@@ -77,17 +69,16 @@ div#onestop img {
 	position: absolute;
 }
 
-div#onestop h1 {
+div#onestop h2 {
 	margin-left: 31%;
 	margin-top: 30px;
-	//position: absolute;
+	font-size: 2em;
 	padding: 30px;
 	letter-spacing: 0.2em;
 }
 
 div#svg object {
 	opacity: 0.5;
-	//background-color: #6F7678;
 	color: white;
 	padding: 0;
 }
@@ -124,35 +115,179 @@ section#bottom {
 
 
 div#match img {
-	//padding: 10px;
 	display: block;
 	margin-top: 30px;
 	margin-left: 43%;
 	position: absolute;
 }
 
-div#match h1 {
+div#match h2 {
 	margin-left: 28%;
-	//position: absolute;
+	font-size: 2em;
 	padding: 60px;
 	letter-spacing: 0.2em;
 }
 
+footer {
+	font-size: 0.8em;
+}
 
+div#logo img {
+	margin-bottom: 10px;
+	display: block;
+}
 
-
-
-/* for screen less than 480px  */
-@media screen and (max-width : 480px) {
-/* Styles */
+div#logo p {
+	font-size: 0.8em;
+	text-align: center;
 }
 
 
-/* screen 481px-1024px*/
-@media screen
-and (min-width : 481px)
-and (max-width : 768px) {
-/* Styles */
+div#subForm {
+	margin: 10px;
+	font-size: 0.7em;
+	background-color: #EAEDEE;
+}
+
+div#para {
+	background-color: #D9D9DA;
+	padding: 1px;
+}
+
+div#para p {
+	margin: 15px;
+	text-align: center;
+}
+
+form#subscribe input {
+	margin: 15px;
+	padding: 10px;
+	border: 0px;
+	width: 70%;
+}
+
+
+input#submit {
+	padding: 10px;
+	background-color: #5A5A5A;
+	color: white;
+}
+
+
+@media screen and (max-width : 768px) {
+
+	header img {
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	nav ul li {
+		//display: inline;
+	}
+
+	nav ul#lowerNav {
+		padding-bottom: 20px;
+		text-align: center;
+	}
+
+	nav ul#upperNav {
+		padding: 10px;
+		margin-left: 50%;
+	}
+
+	
+
+	div#slides img {
+		margin: 0 auto;
+	}
+
+	div#onestop {
+		padding: 5px;
+	}
+
+	div#svg {
+		
+		margin: 15px auto;
+	}
+
+	div#path {
+		display: block;
+		margin: 15px auto;
+	}
+
+	div#mentor {
+		
+		margin: 15px auto;
+	}
+
+	
+	div#ezjobs {
+		margin: 15px auto;
+	}
+	
+	div#jobbuzz {
+		margin: 15px auto;
+	}
+
+	div#photos {
+		margin: 15px auto;
+	}
+
+	div#photos img {
+		height: 350px;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	img.imgStyle {
+		border: 8px solid black;
+		//margin: 20px 10px 40px;
+		//position: absolute;
+	}
+
+	footer {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	div#logo  {
+		margin: 15px auto;
+	}
+
+	div#logo img {
+		margin: 0 auto;
+	}
+	
+	div#contact {
+		
+		margin: 15px auto;
+		font-weight: bold;
+	}
+
+	div#social {
+		
+		margin: 15px auto;
+	}
+
+	
+	form#subscribe input {
+		display: inline;
+	}
+
+	
+	div#social ul li {
+		display: inline;
+		margin: 10px auto;
+	}
+
+	
+	div#contact ul li {
+		display: inline;
+		margin: 10px auto;
+	}
+
 }
 
 
@@ -228,17 +363,62 @@ and (max-width : 768px) {
 
 	div#photos img {
 		width: 22%;
-		height: 380px;
-		//display: block;
-		//float: left;
+		height: 350px;
 		text-align: center;
+	}
+
+	div#photos a:first-child {
+		margin-left: 8%;
 	}
 
 	img.imgStyle {
 		border: 8px solid black;
-		margin-left: 10px;
-
+		margin: 20px 10px 40px;
 	}
 
+	footer {
+		width: 55%;
+		margin: 0 auto;
+	}
+
+	div#logo  {
+		width: 15%;
+	}
+
+	div#contact {
+		width: 26%;
+		margin-top: 65px;
+		font-weight: bold;
+	}
+
+	div#social {
+		width: 38%;
+		margin-top: 55px;
+	}
+
+	div#subForm {
+		width: 16%;
+	}
+
+	footer ul li {
+		display: inline;
+	}
+
+	.left {
+		float: left;
+	}
+
+	form#subscribe input {
+		display: block;
+	}
+	
+	div#social ul li {
+		margin-right: 8px;
+	}
+
+	
+	div#contact ul li {
+		margin-left: 13px;
+	}
 
 }
