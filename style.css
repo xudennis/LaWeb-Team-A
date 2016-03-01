@@ -182,10 +182,6 @@ input#submit {
 		margin: 0 auto;
 	}
 
-	nav ul li {
-		//display: inline;
-	}
-
 	nav ul#lowerNav {
 		padding-bottom: 20px;
 		text-align: center;
@@ -195,8 +191,6 @@ input#submit {
 		padding: 10px;
 		margin-left: 50%;
 	}
-
-	
 
 	div#slides img {
 		margin: 0 auto;
