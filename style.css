@@ -1,0 +1,478 @@
+/* styles for jobseekers.html
+	Created by Sherry, Vicent, and Dennis
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%
+}
+
+img {
+	max-width: 100%;
+}
+
+header img:hover {
+	opacity: 0.7;
+}
+
+ul#upperNav li:hover {
+	background-color: gray;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+nav#navigator {
+	background-color: #2F2F2F;
+	color: white;
+}
+
+nav ul#upperNav {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+
+
+nav ul#upperNav li {
+	border: 2px solid white;
+	border-radius: 0.3em;
+	margin-left: 10px;
+	font-size: 0.7em;
+	padding: 8px;
+}
+
+nav ul li {
+	list-style: none;
+	padding-left: 15px;
+}
+
+section#slideshow {
+	background-color: #EAEDEE;
+}
+
+a.w3-btn-floating:first-child {
+	position:absolute;
+	top:45%;
+	left:16%
+}
+
+a.w3-btn-floating {
+	position:absolute;
+	top:45%;
+	right:16%
+}
+
+
+
+
+div#slides img {
+	// display: block;
+	height: 480px;
+}
+
+
+img.arrows {
+	opacity: 0.3;
+}
+
+img.arrows:hover {
+	opacity: 1;
+}
+
+
+
+
+div#onestop {
+	background-image: url("images/slash.png");
+	//position: absolute;
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: 50px auto;
+}
+
+
+
+div#onestop h2 {
+	text-align: center;
+	font-size: 2em;
+	padding: 20px;
+	letter-spacing: 0.3em;
+}
+
+div#svg {
+	clear: both;
+}
+
+div#svg object {
+	opacity: 0.5;
+	color: white;
+	padding: 0;
+}
+
+div#svg p {
+	font-size: 0.7em;
+	text-align: center;
+}
+
+div#svg figcaption {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+
+
+object#first {
+	position: absolute;
+}
+
+object#second {
+	margin-left: 32px;
+}
+
+div#jobbuzz {
+	padding-bottom: 120px;
+}
+
+
+section#bottom {
+	clear: both;
+	background-color: #EAEDEE;
+}
+
+
+
+div#match {
+	background-image: url("images/slash.png");
+
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 30px auto;
+	padding: 30px;
+}
+
+
+div#match h2 {
+	text-align: center;
+	font-size: 2em;
+	padding: 20px;
+	letter-spacing: 0.3em;
+}
+
+footer {
+	font-size: 0.8em;
+}
+
+div#logo img {
+	//margin: 8px 0;
+}
+
+div#logo {
+	font-size: 0.8em;
+	text-align: center;
+	//margin: 8px;
+	padding: 0;
+}
+
+
+div#subForm {
+	margin: 10px;
+	font-size: 0.7em;
+	background-color: #EAEDEE;
+}
+
+
+div#para {
+	background-color: #D9D9DA;
+	padding: 1px;
+}
+
+div#para p {
+	margin: 15px;
+	text-align: center;
+}
+
+input[type="text"], input[type="email"] {
+	outline: none;
+}
+
+form#subscribe input {
+	width: 70%;
+	margin: 8px auto;
+	padding: 8px;
+	border: none;
+	background-color: #EAEDEE;
+
+}
+
+
+
+input#submit {
+	padding: 10px 12px;
+	background-color: #646464;
+	color: white;
+	width: 70%;
+	margin: 15px 12px;
+	
+}
+
+
+@media screen 
+and (min-width: 320px) 
+and (max-width : 768px) {
+
+	header img {
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	nav ul#lowerNav {
+		padding-bottom: 20px;
+		text-align: center;
+	}
+
+	nav ul#upperNav {
+		padding: 10px;
+		margin-left: 50%;
+	}
+
+	div#slides img {
+		margin: 0 auto;
+	}
+
+	div#onestop {
+		padding: 5px;
+	}
+
+	div#svg {
+		
+		margin: 15px auto;
+	}
+
+	div#path {
+		display: block;
+		margin: 15px auto;
+	}
+
+	div#mentor {
+		
+		margin: 15px auto;
+	}
+
+	
+	div#ezjobs {
+		margin: 15px auto;
+	}
+	
+	div#jobbuzz {
+		margin: 15px auto;
+	}
+
+	div#photos {
+		margin: 15px auto;
+	}
+
+	div#photos img {
+		height: 350px;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	img.imgStyle {
+		border: 8px solid black;
+		//margin: 20px 10px 40px;
+		//position: absolute;
+	}
+
+	footer {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	div#logo  {
+		margin: 15px auto;
+	}
+
+	div#logo img {
+		margin: 0 auto;
+	}
+	
+	div#contact {
+		
+		margin: 15px auto;
+		font-weight: bold;
+	}
+
+	div#social {
+		
+		margin: 15px auto;
+	}
+
+	
+	form#subscribe input {
+		display: inline;
+	}
+
+	
+	div#social ul li {
+		display: inline;
+		margin: 10px auto;
+	}
+
+	
+	div#contact ul li {
+		display: inline;
+		margin: 10px auto;
+	}
+
+}
+
+
+
+@media screen and (min-width: 769px) {
+
+	header img {
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	nav ul li {
+		display: inline;
+	}
+
+	nav ul#lowerNav {
+		padding-bottom: 20px;
+		text-align: center;
+	}
+
+	nav ul#upperNav {
+		padding-top: 20px;
+		margin-left: 61%;
+	}
+
+	
+
+	div#slides img {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	div#onestop {
+		padding: 20px;
+	}
+
+	div#svg {
+		width: 60%;
+		margin: 20px auto;
+	}
+
+	div#path {
+		width: 18%;
+		float: left;
+		margin-left: 35px;
+		margin-right: 35px;
+		
+	}
+
+	div#mentor {
+		width: 18%;
+		float: left;
+		margin-right: 35px;
+	}
+
+	
+	div#ezjobs {
+		width: 18%;
+		float: left;
+		margin-right: 35px;
+	}
+	
+	div#jobbuzz {
+		width: 18%;
+		float: left;
+	}
+
+	
+	div.col-sm-6 {
+		//float: left;
+		display: inline-block;
+		//width: 22%;
+		border: 8px solid black;
+		margin: 40px 8px;
+		text-align: center;
+	   
+	}
+	
+	.col-sm-6:first-child {
+		margin-left: 25%;
+	}
+
+	.ih-item img {
+	  
+	  //margin: 20px 10px 40px;
+	  height: 420px;
+      text-align: center;
+      padding: 0;
+      margin-right: 0;
+	}
+
+
+
+	footer {
+		width: 50%;
+		margin: 0 auto;
+		//border-top:  0 solid white;
+	}
+
+	div#logo  {
+		width: 16%;
+		//margin-left: 10%;
+	}
+
+	div#contact {
+		width: 26%;
+		//margin-top: 20px;
+		//padding: 0;
+		font-weight: bold;
+	}
+
+	div#social {
+		width: 38%;
+		//margin-top: 30px;
+	}
+
+	div#subForm {
+		width: 15%;
+	}
+
+	footer ul li {
+		display: inline;
+	}
+
+	footer > div {
+		display: inline-block;
+	}
+
+	form#subscribe input {
+		display: block;
+	}
+	
+	div#social ul li {
+		margin-right: 8px;
+	}
+
+	
+	div#contact ul li {
+		margin-left: 10px;
+	}
+
+}
