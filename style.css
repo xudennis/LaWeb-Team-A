@@ -69,9 +69,6 @@ a.w3-btn-floating {
 	right:16%
 }
 
-
-
-
 div#slides img {
 	// display: block;
 	height: 480px;
@@ -87,8 +84,6 @@ img.arrows:hover {
 }
 
 
-
-
 div#onestop {
 	background-image: url("images/slash.png");
 	//position: absolute;
@@ -96,8 +91,6 @@ div#onestop {
 	background-position: center top;
 	margin: 50px auto;
 }
-
-
 
 div#onestop h2 {
 	text-align: center;
@@ -107,37 +100,90 @@ div#onestop h2 {
 }
 
 div#svg {
-	clear: both;
+	padding-top: 30px;
 }
 
-div#svg object {
-	opacity: 0.5;
+
+div#path, #mentor, #ezjobs, #jobbuzz {
+	width: 200px;
+	float: left;
+	margin-bottom: 80px;
+	margin-right: 20px;
+}
+
+
+div#path {
+	background-image: url("images/pathFinder.svg");
+	background-size: 160px 140px;
+	background-repeat: no-repeat;
+	background-position: 50px 0;
+	height: 200px;
+	opacity: 0.6;
+}
+
+div#mentor {
+	background-image: url("images/mentorPlans.svg");
+	background-size: 160px 140px;
+	background-repeat: no-repeat;
+	background-position: 50px 0;
+	height: 200px;
+	opacity: 0.6;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+div#mentor div.caption {
+	margin-top: 60px;
+}
+
+
+div#inside {
+	//display: inline;
 	color: white;
-	padding: 0;
-}
-
-div#svg p {
-	font-size: 0.7em;
-	text-align: center;
-}
-
-div#svg figcaption {
-	font-size: 0.8em;
-	font-style: italic;
+	font-size: 10px;
+	//position: relative;
+	//top: -100px;
+	width: 30px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 80px;
 }
 
 
-
-object#first {
-	position: absolute;
-}
-
-object#second {
-	margin-left: 32px;
+div#ezjobs {
+	background-image: url("images/EZJOBS.svg");
+	background-size: 160px 140px;
+	background-repeat: no-repeat;
+	background-position: 50px 0;
+	height: 200px;
+	opacity: 0.6;
 }
 
 div#jobbuzz {
-	padding-bottom: 120px;
+	background: url("images/jobBuzz.svg"), url("images/jobBuzz.svg"); 
+	background-size: 160px 140px;
+	background-repeat: no-repeat;
+	background-position: 40px 0, 72px 0; 
+	height: 200px;
+	opacity: 0.6;
+}
+
+div.caption { 
+	font-style: italic;
+	width: 120px;
+	margin-top: 110px;
+	margin-left: 55px;
+	margin-bottom: 35px;
+}
+
+div#svg p {
+	font-size: 13px;
+	text-align: center;
+	margin-left: 18px;
+}
+
+div.clear {
+	clear: both;
 }
 
 
@@ -147,16 +193,14 @@ section#bottom {
 }
 
 
-
 div#match {
 	background-image: url("images/slash.png");
 
 	background-repeat: no-repeat;
 	background-position: center;
-	margin: 30px auto;
-	padding: 30px;
+	margin: 40px auto;
+	padding: 40px;
 }
-
 
 div#match h2 {
 	text-align: center;
@@ -169,14 +213,9 @@ footer {
 	font-size: 0.9em;
 }
 
-div#logo img {
-	//margin: 8px 0;
-}
-
 div#logo {
 	font-size: 0.6em;
 	text-align: center;
-	//margin: 8px;
 	padding: 0;
 }
 
@@ -209,7 +248,6 @@ form#subscribe input {
 	padding: 5px;
 	border: none;
 	background-color: #EAEDEE;
-
 }
 
 form#subscribe img {
@@ -233,9 +271,9 @@ and (min-width: 320px)
 and (max-width : 768px) {
 
 	header img {
-		width: 80%;
+		
 		display: block;
-		margin: 0 auto;
+		
 	}
 
 	nav ul#lowerNav {
@@ -280,28 +318,9 @@ and (max-width : 768px) {
 		margin: 15px auto;
 	}
 
-	div#photos {
-		margin: 15px auto;
-	}
+	
 
-	div#photos img {
-		height: 350px;
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	img.imgStyle {
-		border: 8px solid black;
-		//margin: 20px 10px 40px;
-		//position: absolute;
-	}
-
-	footer {
-		//width: 90%;
-		//margin: 0 auto;
-	}
-
+	
 	div#logo  {
 		margin: 15px auto;
 	}
@@ -364,8 +383,6 @@ and (max-width : 768px) {
 		margin-left: 61%;
 	}
 
-	
-
 	div#slides img {
 		width: 70%;
 		margin: 0 auto;
@@ -375,67 +392,31 @@ and (max-width : 768px) {
 		padding: 20px;
 	}
 
-	div#svg {
-		width: 60%;
-		margin: 20px auto;
-	}
-
+	
 	div#path {
-		width: 18%;
-		float: left;
-		margin-left: 35px;
-		margin-right: 35px;
-		
+		margin-left: 25%;
 	}
-
-	div#mentor {
-		width: 18%;
-		float: left;
-		margin-right: 35px;
-	}
-
-	
-	div#ezjobs {
-		width: 18%;
-		float: left;
-		margin-right: 35px;
-	}
-	
-	div#jobbuzz {
-		width: 18%;
-		float: left;
-	}
-
 	
 	div.col-sm-6 {
-		//float: left;
 		display: inline-block;
-		//width: 22%;
 		border: 8px solid black;
 		margin: 40px 8px;
 		text-align: center;
-	   
 	}
 	
 	.col-sm-6:first-child {
-		margin-left: 25%;
+		margin-left: 21%;
 	}
 
 	.ih-item img {
-	  
-	  //margin: 20px 10px 40px;
 	  height: 420px;
       text-align: center;
       padding: 0;
       margin-right: 0;
 	}
 
-
-
 	footer {
-		//width: 50%;
 		margin: 0 auto;
-		//border-top:  0 solid white;
 	}
 
 	div#logo  {
@@ -450,14 +431,14 @@ and (max-width : 768px) {
 	}
 
 	div#social {
-		width: 19%;
+		width: 20%;
 		margin: 65px 0;
 	}
 
 	div#subForm {
 		float: none;
 		display: inline-block;
-		width: 8%;
+		width: 9%;
 	}
 
 	footer ul li {
@@ -468,10 +449,7 @@ and (max-width : 768px) {
 		float: left;
 	}
 
-	form#subscribe input {
-		//display: block;
-	}
-	
+		
 	div#social ul li {
 		margin-right: 6px;
 	}
