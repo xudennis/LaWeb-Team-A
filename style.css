@@ -70,7 +70,6 @@ a.w3-btn-floating {
 }
 
 div#slides img {
-	// display: block;
 	height: 480px;
 }
 
@@ -83,12 +82,15 @@ img.arrows:hover {
 	opacity: 1;
 }
 
+section#middle {
+	background-color: #FDFDFD;
+}
 
 div#onestop {
 	background-image: url("images/slash.png");
-	//position: absolute;
+	background-size: 120px 100px;
 	background-repeat: no-repeat;
-	background-position: center top;
+	background-position: top center;
 	margin: 50px auto;
 }
 
@@ -106,6 +108,8 @@ div#svg {
 
 div#path, #mentor, #ezjobs, #jobbuzz {
 	width: 200px;
+	height: 200px;
+	opacity: 0.6;
 	float: left;
 	margin-bottom: 80px;
 	margin-right: 20px;
@@ -117,8 +121,6 @@ div#path {
 	background-size: 160px 140px;
 	background-repeat: no-repeat;
 	background-position: 50px 0;
-	height: 200px;
-	opacity: 0.6;
 }
 
 div#mentor {
@@ -126,10 +128,7 @@ div#mentor {
 	background-size: 160px 140px;
 	background-repeat: no-repeat;
 	background-position: 50px 0;
-	height: 200px;
-	opacity: 0.6;
-	margin-bottom: 0;
-	padding-bottom: 0;
+	
 }
 
 div#mentor div.caption {
@@ -138,12 +137,9 @@ div#mentor div.caption {
 
 
 div#inside {
-	//display: inline;
 	color: white;
 	font-size: 10px;
-	//position: relative;
-	//top: -100px;
-	width: 30px;
+	width: 50px;
 	height: 50px;
 	margin-top: 20px;
 	margin-left: 80px;
@@ -155,8 +151,6 @@ div#ezjobs {
 	background-size: 160px 140px;
 	background-repeat: no-repeat;
 	background-position: 50px 0;
-	height: 200px;
-	opacity: 0.6;
 }
 
 div#jobbuzz {
@@ -164,8 +158,6 @@ div#jobbuzz {
 	background-size: 160px 140px;
 	background-repeat: no-repeat;
 	background-position: 40px 0, 72px 0; 
-	height: 200px;
-	opacity: 0.6;
 }
 
 div.caption { 
@@ -182,10 +174,9 @@ div#svg p {
 	margin-left: 18px;
 }
 
-div.clear {
+div#clear {
 	clear: both;
 }
-
 
 section#bottom {
 	clear: both;
@@ -273,7 +264,6 @@ and (max-width : 768px) {
 	header img {
 		
 		display: block;
-		
 	}
 
 	nav ul#lowerNav {
@@ -294,33 +284,14 @@ and (max-width : 768px) {
 		padding: 5px;
 	}
 
-	div#svg {
-		
-		margin: 15px auto;
+	div#svg > div {
+	display: block;	
+	height: 200px;
+	opacity: 0.6;
+	margin: 15px auto;
 	}
 
-	div#path {
-		display: block;
-		margin: 15px auto;
-	}
 
-	div#mentor {
-		
-		margin: 15px auto;
-	}
-
-	
-	div#ezjobs {
-		margin: 15px auto;
-	}
-	
-	div#jobbuzz {
-		margin: 15px auto;
-	}
-
-	
-
-	
 	div#logo  {
 		margin: 15px auto;
 	}
